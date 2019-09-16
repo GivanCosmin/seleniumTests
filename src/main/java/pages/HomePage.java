@@ -24,11 +24,7 @@ public class HomePage extends BasePage {
     //Method to open Rakuten website , sleep used due to vulnerabilities when waiting for cookies pop-up
     public HomePage goToRakuten(){
         driver.get(baseUrl);
-        try{
-            Thread.sleep(5000);
-        }
-        catch(InterruptedException ie){
-        }
+        waitVisibility(searchButton);
 
         Boolean isPresent = driver.findElements(cookiePopUpAccept).size() > 0;
         if(isPresent == true){
