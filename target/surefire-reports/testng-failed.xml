@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="tests.LoginTests">
+        <methods>
+          <include name="methodLevelSetup"/>
+          <include name="classLevelSetup"/>
+          <include name="emptyCredentialsTest" invocation-numbers="0"/>
+          <include name="invalidPasswordTest" invocation-numbers="0"/>
+          <include name="invalidUserTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.LoginTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

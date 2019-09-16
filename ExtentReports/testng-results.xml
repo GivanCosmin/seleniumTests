@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="6039" started-at="2019-09-12T14:59:53Z" finished-at="2019-09-12T15:00:00Z">
+    <groups>
+    </groups>
+    <test name="extentreports" duration-ms="6039" started-at="2019-09-12T14:59:53Z" finished-at="2019-09-12T15:00:00Z">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="classLevelSetup()[pri:0, instance:tests.LoginTests@7dc36524]" name="classLevelSetup" is-config="true" duration-ms="4051" started-at="2019-09-12T14:59:53Z" finished-at="2019-09-12T14:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:tests.LoginTests@7dc36524]" name="methodLevelSetup" is-config="true" duration-ms="16" started-at="2019-09-12T14:59:58Z" finished-at="2019-09-12T14:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="invalidLoginTest_InvalidUserNameInvalidPassword(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@7dc36524]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="1329" started-at="2019-09-12T14:59:58Z" description="Webadmin wrong username" finished-at="2019-09-12T14:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.invalidLoginTest_InvalidUserNameInvalidPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@7dc36524]" name="teardown" is-config="true" duration-ms="627" started-at="2019-09-12T14:59:59Z" finished-at="2019-09-12T15:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- extentreports -->
+  </suite> <!-- Default Suite -->
+</testng-results>
